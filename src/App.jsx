@@ -1,14 +1,17 @@
+import { Header } from "./components/Header"
 import { Post } from "./components/Post"
+
+import './global.css';
 
 function App() {
   
 
   return (
-    <>
-      <h1>hello world</h1>
+    <div>
+      <Header />
       <Post author="felipe"/>
-      <Post />
-    </>
+   
+    </div>
   )
 }
 
