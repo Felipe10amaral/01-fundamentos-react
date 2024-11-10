@@ -1,3 +1,4 @@
+import { Post } from "./components/Post"
 
 function App() {
   
@@ -5,6 +6,8 @@ function App() {
   return (
     <>
       <h1>hello world</h1>
+      <Post />
+      <Post />
     </>
   )
 }
