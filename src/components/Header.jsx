@@ -1,8 +1,8 @@
-import styles from './Header.modules.css'
+import './Header.modules.css'
 
 export function Header() {
     return (
-       <header className={styles.header}>
+       <header className='header' >
             <strong>Ignite Feed</strong>
        </header>
     )
