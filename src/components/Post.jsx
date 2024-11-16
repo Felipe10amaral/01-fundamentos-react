@@ -4,6 +4,7 @@ export function Post(props) {
         <div>
            
             <h1>{props.author}</h1>
+            <p>{props.content}</p>
         </div>
     )
 }
